@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import apiClients from "../services/api-clients";
+import apiClients from "../services/api-client";
 import { CanceledError } from "axios";
 import useData from "./useData";
 import { Genre } from "./useGenres";
